@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="387.0" prefWidth="347.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.ubb.scs.ir.map.socialnetworkgit.controller.CerereController">
+    <children>
+        <TableView fx:id="tableView" layoutX="31.0" layoutY="50.0" prefHeight="287.0" prefWidth="284.0">
+            <columns>
+                <TableColumn fx:id="tableColumnNume" prefWidth="75.0" text="Nume" />
+                <TableColumn fx:id="tableColumnPrenume" prefWidth="75.0" text="Prenume" />
+                <TableColumn fx:id="actionColumn" prefWidth="67.33331298828125" text="Add" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

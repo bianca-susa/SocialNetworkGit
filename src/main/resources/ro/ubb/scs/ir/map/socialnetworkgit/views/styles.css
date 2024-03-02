@@ -1,0 +1,9 @@
+/* styles.css */
+
+#toggleButton:selected {
+    -fx-background-image: url(selected_resize.png) ; /* Set the background color when selected */
+}
+
+#toggleButton {
+    -fx-background-image: url(unselected_resize.png); /* Set the background color when not selected */
+}
